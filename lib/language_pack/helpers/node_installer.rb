@@ -1,8 +1,8 @@
 class LanguagePack::NodeInstaller
-  MODERN_NODE_VERSION = "0.10.30"
+  MODERN_NODE_VERSION = "6.3.0"
   MODERN_BINARY_PATH  = "node-v#{MODERN_NODE_VERSION}-linux-x64"
 
-  LEGACY_NODE_VERSION = "0.4.7"
+  LEGACY_NODE_VERSION = "4.1.1"
   LEGACY_BINARY_PATH = "node-#{LEGACY_NODE_VERSION}"
 
   NODEJS_BASE_URL     = "https://s3pository.heroku.com/node/v#{MODERN_NODE_VERSION}/"
